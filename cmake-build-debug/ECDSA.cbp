@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ECDSA"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\scripts\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/lastochk/CLionProjects/ECDSA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lastochk/CLionProjects/ECDSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lastochk/CLionProjects/ECDSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lastochk/CLionProjects/ECDSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lastochk/CLionProjects/ECDSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ECDSA">
+				<Option output="C:/Users/lastochk/CLionProjects/ECDSA/cmake-build-debug/ECDSA.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/lastochk/CLionProjects/ECDSA/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/lastochk/CLionProjects/ECDSA/ECDSA"/>
+					<Add directory="C:/Users/lastochk/CLionProjects/ECDSA"/>
+					<Add directory="C:/Users/lastochk/CLionProjects/ECDSA/BigInt"/>
+					<Add directory="C:/Users/lastochk/CLionProjects/ECDSA/Utilits"/>
+					<Add directory="C:/Users/lastochk/CLionProjects/ECDSA/ElipticCurve"/>
+					<Add directory="C:/OpenSSL/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/8.2.0/../../../../include/c++/8.2.0"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/8.2.0/../../../../include/c++/8.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/8.2.0/../../../../include/c++/8.2.0/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/8.2.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/8.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lastochk/CLionProjects/ECDSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 ECDSA"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lastochk/CLionProjects/ECDSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lastochk/CLionProjects/ECDSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lastochk/CLionProjects/ECDSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ECDSA/fast">
+				<Option output="C:/Users/lastochk/CLionProjects/ECDSA/cmake-build-debug/ECDSA.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/lastochk/CLionProjects/ECDSA/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/lastochk/CLionProjects/ECDSA/ECDSA"/>
+					<Add directory="C:/Users/lastochk/CLionProjects/ECDSA"/>
+					<Add directory="C:/Users/lastochk/CLionProjects/ECDSA/BigInt"/>
+					<Add directory="C:/Users/lastochk/CLionProjects/ECDSA/Utilits"/>
+					<Add directory="C:/Users/lastochk/CLionProjects/ECDSA/ElipticCurve"/>
+					<Add directory="C:/OpenSSL/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/8.2.0/../../../../include/c++/8.2.0"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/8.2.0/../../../../include/c++/8.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/8.2.0/../../../../include/c++/8.2.0/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/8.2.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/8.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lastochk/CLionProjects/ECDSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 ECDSA/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lastochk/CLionProjects/ECDSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lastochk/CLionProjects/ECDSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lastochk/CLionProjects/ECDSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/lastochk/CLionProjects/ECDSA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lastochk/CLionProjects/ECDSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lastochk/CLionProjects/ECDSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lastochk/CLionProjects/ECDSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lastochk/CLionProjects/ECDSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/lastochk/CLionProjects/ECDSA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lastochk/CLionProjects/ECDSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lastochk/CLionProjects/ECDSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lastochk/CLionProjects/ECDSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lastochk/CLionProjects/ECDSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/lastochk/CLionProjects/ECDSA/BigInt/BigInt.cpp">
+			<Option target="ECDSA"/>
+		</Unit>
+		<Unit filename="C:/Users/lastochk/CLionProjects/ECDSA/BigInt/BigInt.h">
+			<Option target="ECDSA"/>
+		</Unit>
+		<Unit filename="C:/Users/lastochk/CLionProjects/ECDSA/BigInt/Field.cpp">
+			<Option target="ECDSA"/>
+		</Unit>
+		<Unit filename="C:/Users/lastochk/CLionProjects/ECDSA/BigInt/Field.h">
+			<Option target="ECDSA"/>
+		</Unit>
+		<Unit filename="C:/Users/lastochk/CLionProjects/ECDSA/BigInt/IntegerMod.cpp">
+			<Option target="ECDSA"/>
+		</Unit>
+		<Unit filename="C:/Users/lastochk/CLionProjects/ECDSA/BigInt/IntegerMod.h">
+			<Option target="ECDSA"/>
+		</Unit>
+		<Unit filename="C:/Users/lastochk/CLionProjects/ECDSA/ElipticCurve/EllipticCurve.cpp">
+			<Option target="ECDSA"/>
+		</Unit>
+		<Unit filename="C:/Users/lastochk/CLionProjects/ECDSA/ElipticCurve/EllipticCurve.h">
+			<Option target="ECDSA"/>
+		</Unit>
+		<Unit filename="C:/Users/lastochk/CLionProjects/ECDSA/ElipticCurve/Rand.cpp">
+			<Option target="ECDSA"/>
+		</Unit>
+		<Unit filename="C:/Users/lastochk/CLionProjects/ECDSA/ElipticCurve/Rand.h">
+			<Option target="ECDSA"/>
+		</Unit>
+		<Unit filename="C:/Users/lastochk/CLionProjects/ECDSA/Utilits/Logger.cpp">
+			<Option target="ECDSA"/>
+		</Unit>
+		<Unit filename="C:/Users/lastochk/CLionProjects/ECDSA/Utilits/Logger.h">
+			<Option target="ECDSA"/>
+		</Unit>
+		<Unit filename="C:/Users/lastochk/CLionProjects/ECDSA/main.cpp">
+			<Option target="ECDSA"/>
+		</Unit>
+		<Unit filename="C:/Users/lastochk/CLionProjects/ECDSA/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/lastochk/CLionProjects/ECDSA/scripts/DirectorySeacher.cmake">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

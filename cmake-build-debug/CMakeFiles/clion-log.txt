@@ -1,0 +1,8 @@
+"C:\Program Files\JetBrains\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\lastochk\CLionProjects\ECDSA
+add to executable ECDSA files: C:/Users/lastochk/CLionProjects/ECDSA/main.cpp
+add to executable ECDSA files: C:/Users/lastochk/CLionProjects/ECDSA/BigInt/BigInt.cpp;C:/Users/lastochk/CLionProjects/ECDSA/BigInt/Field.cpp;C:/Users/lastochk/CLionProjects/ECDSA/BigInt/IntegerMod.cpp
+add to executable ECDSA files: C:/Users/lastochk/CLionProjects/ECDSA/Utilits/Logger.cpp
+add to executable ECDSA files: C:/Users/lastochk/CLionProjects/ECDSA/ElipticCurve/EllipticCurve.cpp;C:/Users/lastochk/CLionProjects/ECDSA/ElipticCurve/Rand.cpp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/lastochk/CLionProjects/ECDSA/cmake-build-debug

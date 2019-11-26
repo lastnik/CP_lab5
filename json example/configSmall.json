@@ -1,0 +1,12 @@
+{
+  "prime" : "25",
+  "A" : "0",
+  "B" : "7",
+  "X" : "3",
+  "Y" : "10",
+  "n" : "27",
+  "h" : "1",
+  "file" : "test.txt",
+  "mode" : "confirm",
+  "LogLevel" : "debug"
+}
